@@ -1,1 +1,35 @@
-/*  your css code here. If applicable */
+/* Apply styles to the body element */
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+/* Apply styles to the player containers */
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px; 
+
+	
+}
+video,audio{
+    width: 100%;
+}
+
+/* Apply styles to the h1 and h2 elements */
+h1, h2 {
+    text-align: center;
+}
+
+/* Apply styles to the ul and li elements */
+ul {
+	background-color: rgb(255, 255, 255);
+
+    padding: 10px;
+    border-radius:10px;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration-line: none;
+}
+
